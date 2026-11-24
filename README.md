@@ -1,14 +1,16 @@
 # HPF Companion
 
+<img src="assets/cover.png" alt="HPF Companion" width="100%">
+
 > The patient follows their own treatment journey, while clinical records stay on the clinic computer.
 
-**Digital patient experience** · Prototype · Clinical & Patient Experience  
-**Source code** · proprietary and private: this repository is documentation only.
+**Status** · Prototype &nbsp;·&nbsp; **Area** · Clinical & Patient Experience &nbsp;·&nbsp; **Source code** · private, documentation only
 
-## My role
+### At a glance
 
-Product design and development.  
-The project started from the follow-up of patients between appointments.
+- The patient follows their own journey, and nothing more.
+- Clinical records never leave the clinic computer.
+- The patient app works offline once installed.
 
 ## The problem
 
@@ -18,6 +20,11 @@ They have no clean, safe view of their own journey, and clinical records must no
 ## The solution
 
 The clinic keeps its records on its own computer, and the patient sees only an explicit allow-list of their own journey, published through a narrow gateway.
+
+## My role
+
+Product design and development.  
+The project started from the follow-up of patients between appointments.
 
 ## Key features
 
@@ -30,14 +37,14 @@ The clinic keeps its records on its own computer, and the patient sees only an e
 
 ## Screenshots
 
-No screenshot is published: every real screen of this tool would show clinical or case data.
+No screenshot is published: every real screen of this tool would show clinical or case data.  
 The simplified architecture below shows how it is built.
 
 ## Technologies
 
 Python · FastAPI · SQLite · JavaScript · PWA · Capacitor · Docker · PyInstaller
 
-## Architecture (simplified)
+## Architecture
 
 ![Simplified architecture of HPF Companion](assets/architecture.svg)
 
@@ -58,10 +65,10 @@ Python · FastAPI · SQLite · JavaScript · PWA · Capacitor · Docker · PyIns
 - The gateway refuses to start on a public address unless its database is flagged as a prototype.
 - No analytics and no third-party SDK.
 - The source code of HPF Companion is proprietary and kept in a private repository.
-- This repository contains documentation and demonstration screenshots only: no source code, configuration, data or history from the private project.
+- This repository contains documentation and demonstration screenshots only.
 - Demonstrations can be arranged on request.
 
 ---
 
-Part of the [HPF Dental Solutions project portfolio](https://github.com/hpfdentalsolutions) · [hpfdentalsolutions.com](https://hpfdentalsolutions.com)  
+[Hugo Philippe Fusaro](https://github.com/hugophilippefusaro) · [HPF Dental Solutions](https://github.com/hpfdentalsolutions) · [hpfdentalsolutions.com](https://hpfdentalsolutions.com)  
 © 2026 Hugo Philippe Fusaro. All rights reserved on texts and images.
