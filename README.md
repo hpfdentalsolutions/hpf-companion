@@ -1,6 +1,6 @@
 # HPF Companion
 
-<img src="assets/cover-2.png" alt="HPF Companion" width="100%">
+<img src="assets/cover-3.png" alt="HPF Companion" width="100%">
 
 > The patient follows their own treatment journey, while clinical records stay on the clinic computer.
 
